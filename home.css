@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    padding-left: 43%;
+    padding-top: 20px;
+    background-color:#5A639C;
+}
+.head{
+    font-family: "Sixtyfour Convergence", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0
+}
+.head:hover{
+    transform: scale(1.4);
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color:#7776B3;
+}
+.logo{
+    height: auto;
+    width: 100px;
+    margin-left: 4%;
+}
+.l{
+    font-size: 70px;
+    font-weight: bold;
+    color: #E4003A;
+}
+.l:hover{
+    transform: scale(1.4);
+}
+.menu{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: left;
+    margin-top: -60PX;
+    width: 550px;
+}
+.an{
+    width: 90px;
+    text-decoration: none;
+    color: #F1DEC6;
+    font-size: 20px;
+    height: 32px;
+    text-align: center;
+}
+.an:hover{
+    color: #fff;
+    text-decoration: solid;
+    text-decoration-line: underline;
+    transform: scale(1.2);
+}
+.search{
+    margin-left: 60%;
+    margin-top: -37px;
+}
+.src{
+    height: 35px;
+    width: 300px;
+}
+.button{
+    height: 35px;
+    width: 80px;
+    background-color: coral;
+}
+.button:hover{
+    background-color: #fff;
+}
+.src:focus{
+    outline: none;
+}
+.button:focus{
+    outline: none;
+}
+.content{
+    width: 50%;
+    height: 200px;
+}
+.offer{ 
+    cursor: pointer;
+}
+.im:hover{
+    transform: scale(1.1);
+}
+.article{
+    width: 50%;
+    height: 200px;
+}
+.aside{
+    width: 50%;
+    height: 400px;
+    margin-left: 50%;
+    margin-top: -401px;
+}
+.vid{
+    height: 196.8px;
+    width: 100%;
+}
+.vid:hover{
+    transform: scale(1.1);
+}
+.discount{
+    width: 100%;
+    height: 230px;
+    background-color:#FFF6E9;
+}
+.im1{
+    width: 16.3%;
+    height: auto;
+}
+.im1:hover{
+    transform: scale(1.1);
+}
+.category{
+    width: 100%;
+    background-image: url(background1.jpeg);
+}
+h1.h1{
+    font-family: Georgiaf;
+    text-align: center;
+    color: brown;
+    font-weight: bold;
+    font-size: 60px;
+    background-color: #fff;
+}
+.im2{
+    width: 16.3%;
+    margin-inline-end: 41.5px;
+}
+.im2:hover{
+    transform: scale(1.1);
+}
+#im2{
+    margin-left: 45%;
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #DEF9C4;
+}
+.unorder{
+    width: 30%;
+}
+.policies{
+    margin-left: 350px;
+    margin-top: -280px;
+}
+.touch{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+.icon{
+    height: 35px;
+    width: 5%;
+}
